@@ -1,0 +1,25 @@
+class account:
+  def _init_(self, balance=0):
+    self.balance = balance
+def deposit(self, amount):
+    self.balance += amount
+    def withdraw(self, amount):
+        pass
+        def calculate_interest(self):
+            return 0
+
+class savingsaccount(account):
+    def _init_(self, balance=0):
+        super()._init_(balance)
+        self.withdrawal_limit =
+        700000
+        def withdraw(self, balance):
+            if amount <=
+self.withdrawal_limit:
+            self.balance -= amount
+            else :
+                print("withdrawal amount exceeds limit.")
+    def calculate_interest(self):
+        return self,balance * 0.005
+                    
+
